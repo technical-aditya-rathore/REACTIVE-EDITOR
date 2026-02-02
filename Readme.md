@@ -46,7 +46,7 @@ Unlike traditional AI models that require heavy API calls, **Sentience** uses a 
 ### Author
 
 **[Aditya Kumar Jha]**
-https://github.com/technical-aditya-rathore:-Github Must be followed If you are watching show your empathy and support.
+https://github.com/technical-aditya-rathore :- Must be followed If you are watching show your empathy and support.
 *A project exploring the intersection of Psychology and User Experience.*
 
 ---
