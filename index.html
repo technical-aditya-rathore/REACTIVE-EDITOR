@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENTIENCE // AI-UX Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <div class="glow-bg"></div>
+    
+    <nav>
+        <div class="logo">SENTIENCE<span class="version">v1.2</span></div>
+        <div class="vibe-monitor">
+            <span class="label">ATMOSPHERE:</span>
+            <span id="mood-val">STABLE</span>
+            <div class="power-bar"><div id="int-bar"></div></div>
+        </div>
+        <button id="export-btn">GENERATE LOG</button>
+    </nav>
+
+    <main>
+        <div class="editor-wrapper">
+            <textarea id="editor" spellcheck="false" placeholder="Start your transmission..."></textarea>
+        </div>
+    </main>
+
+    <div id="pdf-render-zone"></div>
+
+    <footer>
+        <div class="footer-grid"></div>
+        <p>System Secured &copy; 2026 | Designed by <span>Developer Aditya</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
